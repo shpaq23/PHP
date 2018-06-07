@@ -1,0 +1,474 @@
+@import url('reset.css');
+
+
+body
+{
+
+
+    width: 96%;
+    max-width: 1000px;
+    font-family: 'segoe ui', 'Verdana', 'Arial';
+    color: #2e302e;
+    margin: 0 auto;
+}
+
+
+#header
+{
+    float: left;
+    width: 100%;
+    padding-top:10px;
+    max-width: 1000px;
+    height: 370px;
+    background-color: #FFFFFF;
+}
+#title
+{
+
+
+    height: 70px;
+    width: 70%;
+    float: left;
+    display: block;
+    font-size:30px;
+    background: url('title.jpg') 0 0 no-repeat;
+    background-size: 90px;
+    text-indent: 85px;
+
+}
+#title h1
+{
+    padding-top:22px;
+
+}
+#username
+{
+    height: 70px;
+    width: 30%;
+    float: right;
+    display: block;
+    font-size: 15px;
+  
+}
+#username p
+{
+      padding-top:28px;
+    float: right;
+}
+#background
+{
+    padding-top: 76px;
+    height: 300px;
+}
+#background img
+{
+    width: 100%;
+    max-height: 300px;
+    min-height: 300px;
+
+}
+
+#top-menu
+{
+    float: left;
+    width: 100%;
+    max-width: 1000px;
+    height: 56px;
+    background: #6fa572;
+    position: relative;
+}
+#top-menu ul
+{
+
+    width:100%;
+    height:100%;
+    background-color: #333;
+}
+#top-menu ul li
+{
+    float: left;
+    height: 100%;
+
+
+}
+#top-menu ul li:last-child
+{
+    float: right;
+}
+#top-menu ul li:nth-last-child(2)
+{
+    float: right;
+}
+
+#top-menu ul li a
+{
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+#top-menu ul li:last-child a
+{
+    padding-right:30px;
+    padding-left:30px;
+}
+
+#top-menu ul li a:hover:not(.active)
+{
+    background-color: #111;
+}
+.active
+{
+    background-color: #4CAF50;
+}
+
+
+
+
+#content
+{
+    float: left;
+    width: 100%;
+    min-height: 300px;
+}
+/*artykul */
+#article
+{
+    float: right;
+    width: 76%;
+    padding: 2%;
+
+}
+#article h1
+{
+  
+    font-size: 180%;
+}
+#article p
+{
+    padding: 10px 10px;
+
+}
+#komentarz-naglowek
+{
+    font-size: 120%;
+    padding-left: 20px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+#komentarz-autor
+{
+   font-size: 100%;
+    padding-left: 30px;
+    padding-top: 10px;
+
+    font-weight: bold;
+    color: #2353a8;
+}
+#komentarz-tresc
+{
+    padding-left: 30px;
+   
+}
+#tag
+{
+    padding-left: 5px;
+    color: gray;
+}
+
+
+/*Formularz */
+#kontakt p
+{
+    padding:10px;
+}
+#kontakt{
+    box-sizing: border-box;
+    float:right;
+    width: 76%;
+    padding: 2%;
+}
+#kontakt h1
+{
+    font-size: 150%;
+    padding-bottom:2%;
+    text-align: center;
+}
+
+
+#kontakt input[type = text], select, textarea,input[type = tel],input[type = email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+#kontakt input[type=submit] {
+    
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+#kontakt label {
+
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 110%;
+    font-weight: bold;
+
+
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+/*Login */
+
+#adminpanel
+{
+    float: right;
+    width: 76%;
+    padding: 2%;
+}
+
+#loginpanel{
+    box-sizing: border-box;
+    float:left;
+    width: 100%;
+    padding: 2%; 
+}
+#right
+{
+    float: right;
+    width: 34%;
+    padding: 2% 1%;
+
+}
+#zdjecia input[type=file] {
+
+    width:100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 4% 2%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+
+}
+/*Galeria */
+#zdjecia img
+{
+    width:58%;
+    float:left;
+    border-radius: 6%;
+    cursor:pointer;
+}
+#right p, label
+{
+    padding-top:2.5%;
+    float:left;
+}
+#right label
+{
+    padding-left:4%;
+}
+#adminpanel h1
+{
+    font-size: 150%;
+    padding-bottom:3%;
+    text-align: center;
+}
+
+/*Statystyki */
+#chart
+{
+    min-width:360px;
+    height:450px;
+    max-width:760;
+    margin:0 auto;
+}
+
+
+
+.imgcontainer
+{
+    text-align:center;
+
+}
+
+.avatar 
+{
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+}
+
+.container
+{
+    width:60%;
+    float:left;
+    padding-left: 20%;
+
+
+
+
+}
+#loginpanel input[type = text], input[type = password], input[type = email]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+#loginpanel label
+{
+    font-size: 110%;
+
+}
+#loginpanel input[type = submit]
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 110%;
+}
+
+
+
+
+#left-col
+{
+    float: left;
+    width:20%;
+    max-width: 200px;
+    min-height: 320px;
+    padding-top: 15px;
+
+}
+.sticky
+{
+    position: fixed;
+    top:0;
+}
+.ciekawostki h1
+{
+    font-size: 120%;
+    padding: 10px;
+}
+.ciekawostki ul
+{
+    margin: 0;
+    width: 100%;
+}
+.ciekawostki ul li
+{
+
+    color: #000;
+    padding:10px;
+    font-size:100%;
+
+}
+.ciekawostki a
+{
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+.Hint
+{
+    display:none;
+
+}
+
+#left-col ul
+{
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+}
+#left-col ul li a
+{
+    display: block;
+    color: #000;
+    padding:20px;
+    text-decoration: none;
+    font-size: 120%;
+}
+#left-col ul li a:hover:not(.active)
+{
+    background: #333;
+    color: #6fa572;
+    border-radius: 5px;
+
+}
+
+#left-col .active
+{
+    background: #6fa572;
+    border-radius: 5px;
+}
+
+
+#left-col img
+{
+    width: 100%;
+    height: 318px;
+    border-radius: 6%;
+
+}
+.slideshow h1
+{
+
+    font-size: 120%;
+    text-align:left;
+    padding: 10px;
+}
+
+
+
+#footer
+{
+    float: left;
+    width: 100%;
+    max-width: 1000px;
+    height: 35px;
+    padding-top: 15px; 
+    text-align: center;
+
+}
+
+
+
+
+
+
+

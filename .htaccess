@@ -1,0 +1,15 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+ 
+RewriteEngine on
+RewriteRule FoCL StartPage.php
+RewriteRule Registration Registration.php
+RewriteRule Login Login.php
+RewriteRule Add_Post AddPost.php
+RewriteRule Edit_Post EditPost.php
+RewriteRule Add_Comment AddComment.php
+RewriteRule Edit_Comment EditComment.php
+RewriteRule Edit_user EditUser.php
